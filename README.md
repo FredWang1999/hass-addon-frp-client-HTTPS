@@ -2,8 +2,8 @@
 
 ⚠️ **Note: This README corresponds to v1.0.0 and may not fully reflect the current state of the repository. Please change to the specific tag for the most accurate information.**
 
-# Hass Addon FRP Client
-Home Assistant Community Add-on: FRP Client
+# Hass Addon FRP Client HTTPS
+Home Assistant Community Add-on: FRP Client HTTPS
 
 You can leverage this add-on to achieve remote access to local Home Assistant OS by port forwarding.
 
