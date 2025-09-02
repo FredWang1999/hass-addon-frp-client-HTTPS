@@ -24,9 +24,9 @@ localIP = "0.0.0.0"
 
 [proxies.plugin]
 type = "https2http"
-localAddr = "your_ip:8123"
-crtPath = "/share/frp/fullchain.pem"
-keyPath = "/share/frp/privkey.pem"
+localAddr = "0.0.0.0:8123"
+crtPath = "/share/frp/fullchain.crt"
+keyPath = "/share/frp/privkey.key"
 hostHeaderRewrite = "0.0.0.0"
 requestHeaders.set.x-from-where = "frp"
 
