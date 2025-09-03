@@ -19,14 +19,6 @@ type = "https"
 customDomains = ["your_domain"]
 transport.useEncryption = true
 transport.useCompression = true
-localPort = 8123
+localPort = 1433
 localIP = "0.0.0.0"
-
-[proxies.plugin]
-type = "https2http"
-localAddr = "0.0.0.0:8123"
-crtPath = "/ssl/fullchain.pem"
-keyPath = "/ssl/privkey.pem"
-hostHeaderRewrite = "0.0.0.0"
-requestHeaders.set.x-from-where = "frp"
 
