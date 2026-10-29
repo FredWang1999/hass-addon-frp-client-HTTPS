@@ -19,6 +19,6 @@ type = "https"
 customDomains = ["your_domain"]
 transport.useEncryption = true
 transport.useCompression = true
-localPort = 1433
+localPort = 443
 localIP = "0.0.0.0"
 
